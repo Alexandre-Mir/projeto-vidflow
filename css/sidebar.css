@@ -1,0 +1,33 @@
+.sidebar__primeira-lista {
+	margin: 1em;
+	border-bottom: 1px solid var(--azul-medio);
+}
+
+@media (min-width: 834px) {
+	.sidebar__primeira-lista {
+		margin: 1em;
+		border-bottom: none;
+	}
+
+	.sidebar__lista__item {
+		padding: 1em 0;
+	}
+
+	.sidebar__lista__item-link {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: var(--cinza-escuro);
+		font-weight: 400;
+	}
+
+	.sidebar-selecionado {
+		font-weight: 500;
+	}
+
+	.sidebar__lista__item-link img {
+		width: 24px;
+		margin-bottom: 1em;
+	}
+}
